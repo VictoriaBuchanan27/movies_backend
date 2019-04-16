@@ -97,3 +97,16 @@ INSERT INTO movie (title, genre_id, img_url)
 VALUES ('JURASSIC WORLD: FALLEN KINGDOM',6,'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6257/6257211_sa.jpg;maxHeight=640;maxWidth=550');
 
 /*ratings*/
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
