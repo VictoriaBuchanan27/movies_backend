@@ -20,6 +20,13 @@ const getAllGenre = (req, res) => {
         })
 }
 //put
+const putGenre = (req, res) => {
+    Genres.put(req.params.id, req.body) 
+        .then(data => Genres.get(req.params.id))
+        .then(data => {
+            res.json({success: true, data});
+        })
+}
 
 
 const getGenresRouter = () => {
