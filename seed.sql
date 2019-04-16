@@ -110,5 +110,30 @@ INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+INSERT INTO ratings (stars, movie_id) VALUES ();
+
 
 /*comments*/
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
+INSERT INTO comments(text, movie_id) VALUES('',);
