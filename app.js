@@ -21,5 +21,7 @@ const getApp = () => {
     app.use('/ratings', getRatingsRouter());
 
     return app;
-
+}
+module.exports = {
+    getApp,
 }
