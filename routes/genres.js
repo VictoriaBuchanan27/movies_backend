@@ -13,7 +13,12 @@ const postGenre = (req, res) => {
             res.send(404)
         })
 }
-//getall
+const getAllGenre = (req, res) => {
+    Genres.getAll()
+        .then(data => {
+            res.json({success: true, data});
+        })
+}
 //put
 
 
