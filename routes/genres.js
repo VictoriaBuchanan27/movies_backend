@@ -1,8 +1,18 @@
 const express = require('express');
 const Genres = require('../services/genres');
 
-//get
-//post
+const getGenre = (req, res) => {
+    Genres.get(req.params.id)
+        .then(data => {
+            res.json({success: true, data});
+        })
+}
+const postGenre = (req, res) => {
+    Genres.add(req.body.name)
+        .then(data => {
+            res.send(404)
+        })
+}
 //getall
 //put
 
