@@ -45,4 +45,8 @@ CREATE TABLE comments (
 + must be text
 + each movie have a specific id number refence*/
 
-
+INSERT INTO genres (name) VALUES ('comedy');
+INSERT INTO genres (name) VALUES ('romance');
+INSERT INTO genres (name) VALUES ('action');
+INSERT INTO genres (name) VALUES ('horror');
+INSERT INTO genres (name) VALUES ('sci-fi');
