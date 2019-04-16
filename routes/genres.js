@@ -27,7 +27,12 @@ const putGenre = (req, res) => {
             res.json({success: true, data});
         })
 }
-
+const getMoviesByGenre = (req, res) => {
+    Genres.getMovies(req.params.id)
+        .then(data => {
+            res.json({success: true, data});
+        })
+}
 
 const getGenresRouter = () => {
     const router = express.Router();
