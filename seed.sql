@@ -45,8 +45,18 @@ CREATE TABLE comments (
 + must be text
 + each movie have a specific id number refence*/
 
+/*genres*/
 INSERT INTO genres (name) VALUES ('comedy');
 INSERT INTO genres (name) VALUES ('romance');
 INSERT INTO genres (name) VALUES ('action');
 INSERT INTO genres (name) VALUES ('horror');
 INSERT INTO genres (name) VALUES ('sci-fi');
+
+/*movies*/
+INSERT INTO movies (title, genre_id, img_url);
+VALUES ('Super Bad',1,'https://images-na.ssl-images-amazon.com/images/I/51gr0eN7X0L.jpg');
+
+INSERT INTO movies (title, genre_id, img_url);
+VALUES('Lady bird', 1,'https://images-na.ssl-images-amazon.com/images/I/91XUGLG97KL._SY679_.jpg');
+ 
+INSERT INTO movies (title, genre_id)
