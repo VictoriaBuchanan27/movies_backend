@@ -110,3 +110,5 @@ INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
 INSERT INTO ratings (stars, movie_id) VALUES ();
+
+/*comments*/
